@@ -1,0 +1,137 @@
+@keyframes waistband
+  0%
+    transform: scale(1.1)
+  50%
+    transform: scale(.95)
+  100%
+    transform: scale(1.1)
+
+@keyframes rocked
+  0%
+    transform: rotate(0deg)
+  50%
+    transform: rotate(16deg)
+  100%
+    transform: rotate(0deg)
+
+@keyframes rockedsmall
+  0%
+    transform: rotate(0deg)
+  25%
+    transform: rotate(5deg)
+  50%
+    transform: rotate(0deg)
+  75%
+    transform: rotate(-5deg)
+  100%
+    transform: rotate(0deg)
+
+@keyframes rocked-lantern
+  0%
+    transform: rotate(0deg) skewy(0deg)
+  25%
+    transform: rotate(5deg) skewy(3deg)
+  50%
+    transform: rotate(0deg) skewy(0deg)
+  75%
+    transform: rotate(-5deg) skewy(-3deg)
+  100%
+    transform: rotate(0deg) skewy(0deg)
+
+@keyframes rockedbtn
+  0%
+    transform: rotate(0deg) scale(1)
+  50%
+    transform: rotate(10deg) scale(.96)
+  100%
+    transform: rotate(0deg) scale(1)
+
+@keyframes gamehammersmall
+  0%
+    transform: rotateZ(0deg)
+  25%
+    transform: rotateZ(4deg)
+  50%
+    transform: rotateZ(0deg)
+  75%
+    transform: rotateZ(-4deg)
+  100%
+    transform: rotateZ(0deg)
+
+@keyframes gamehammerknock
+  0%
+    transform: rotateZ(0deg)
+  40%
+    transform: rotateZ(-40deg)
+  100%
+    transform: rotateZ(0deg)
+
+@keyframes egg-up
+  0%
+    opacity: .5
+    transform: scale(.2) translate3d(0, 160%, 0)
+  33%
+    opacity: 1
+    transform: scale(.4) translate3d(0, 0, 0)
+  66%
+    opacity: 1
+    transform: scale(1.1) translate3d(0, -10%, 0)
+  100%
+    opacity: 1
+    transform: scale(1) translate3d(0, 0, 0)
+
+@keyframes score-up
+  0%
+    opacity: 1
+    transform: scale(.5) translate3d(0, 0, 0)
+  100%
+    opacity: .6
+    transform: scale(1) translate3d(0, -200%, 0)
+
+@keyframes bighammer-rotate
+  0%
+    transform: rotateZ(0)
+  25%
+    transform: rotateZ(-10deg)
+  50%
+    transform: rotateZ(0)
+  75%
+    transform: rotateZ(10deg)
+  100%
+    transform: rotateZ(0)
+
+@keyframes bighammer-knock
+  0%
+    transform: rotateZ(0)
+  20%
+    transform: rotateZ(-40deg)
+  100%
+    transform: rotateZ(0)
+
+@keyframes show-popup
+  0%
+    opacity: .8
+    transform: scale(.8)
+  100%
+    opacity: 1
+    transform: scale(1)
+
+@keyframes right-egg
+  to
+    background-position-x: -600px * 255 / 143
+
+@keyframes wrong-egg
+  to
+    background-position-x: -800px
+
+@keyframes popup-updown
+  0%
+    opacity: 1
+    transform: translate3d(0, 0, 0)
+  0%
+    opacity: 1
+    transform: translate3d(0, 1%, 0)
+
+@keyframes play
+  to
+    transform: rotate(360deg)
